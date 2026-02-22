@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_main_page_main_titles",
+  "info": {
+    "displayName": "MainTitle"
+  },
+  "options": {},
+  "attributes": {
+    "spacingTop": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "px20",
+        "px50",
+        "px140"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "OrangeText": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

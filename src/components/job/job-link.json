@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_job_job_links",
+  "info": {
+    "displayName": "JobLink"
+  },
+  "options": {},
+  "attributes": {
+    "JobImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "JobTitle": {
+      "type": "text"
+    },
+    "JobTitleGreyText": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

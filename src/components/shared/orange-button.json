@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_orange_buttons",
+  "info": {
+    "displayName": "OrangeButton"
+  },
+  "options": {},
+  "attributes": {
+    "spacingTop": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "px20",
+        "px50",
+        "px140"
+      ]
+    },
+    "Text": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

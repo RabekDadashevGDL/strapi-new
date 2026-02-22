@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_files",
+  "info": {
+    "displayName": "Files"
+  },
+  "options": {},
+  "attributes": {
+    "FileName": {
+      "type": "string"
+    },
+    "Files": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

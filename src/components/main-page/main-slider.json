@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_main_page_main_sliders",
+  "info": {
+    "displayName": "MainSlider"
+  },
+  "options": {},
+  "attributes": {
+    "spacingTop": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "px20",
+        "px50",
+        "px140"
+      ]
+    }
+  },
+  "config": {}
+}

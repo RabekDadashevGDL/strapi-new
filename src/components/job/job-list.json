@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_job_job_lists",
+  "info": {
+    "displayName": "JobList"
+  },
+  "options": {},
+  "attributes": {
+    "spacingTop": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "px20",
+        "px50",
+        "px140"
+      ]
+    },
+    "JobLink": {
+      "type": "component",
+      "component": "job.job-link",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

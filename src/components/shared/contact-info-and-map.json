@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_contact_info_and_maps",
+  "info": {
+    "displayName": "ContactInfoAndMap"
+  },
+  "options": {},
+  "attributes": {
+    "spacingTop": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "px20",
+        "px50",
+        "px140"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Info": {
+      "type": "richtext"
+    },
+    "GoogleMap": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

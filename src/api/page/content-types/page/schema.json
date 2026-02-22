@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "text"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.bread-crumbs",
+        "shared.title",
+        "news-page.news-date",
+        "shared.solo-image",
+        "shared.solo-text",
+        "news-page.all-news",
+        "shared.slider",
+        "main-page.text-and-image",
+        "main-page.main-title",
+        "main-page.main-slider",
+        "main-page.main-quote",
+        "shared.contact-form",
+        "shared.orange-button",
+        "shared.image-and-border-text",
+        "shared.border-text-and-work-hours",
+        "shared.contact-info-and-map",
+        "shared.text-and-image",
+        "shared.download-file",
+        "job.job-description",
+        "job.job-conditions-list",
+        "job.job-contacts",
+        "job.job-list",
+        "shared.employees-block",
+        "shared.links-container"
+      ]
+    }
+  }
+}

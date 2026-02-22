@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_main_page_text_and_images",
+  "info": {
+    "displayName": "ImageAndText"
+  },
+  "options": {},
+  "attributes": {
+    "spacingTop": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "px20",
+        "px50",
+        "px140"
+      ]
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Title": {
+      "type": "text"
+    },
+    "Text": {
+      "type": "text"
+    },
+    "Button_Text": {
+      "type": "text"
+    },
+    "Button_Link": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

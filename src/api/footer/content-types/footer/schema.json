@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "LogoText": {
+      "type": "text"
+    },
+    "Address": {
+      "type": "text"
+    },
+    "Links": {
+      "type": "json"
+    },
+    "ContactLinkText": {
+      "type": "text"
+    },
+    "WhatsUpLogo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "WhatsUpLink": {
+      "type": "text"
+    },
+    "InstagramLogo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "InstagramLink": {
+      "type": "text"
+    },
+    "Phone": {
+      "type": "text"
+    },
+    "Email": {
+      "type": "text"
+    }
+  }
+}

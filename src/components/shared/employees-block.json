@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_employees_blocks",
+  "info": {
+    "displayName": "EmployeesBlock"
+  },
+  "options": {},
+  "attributes": {
+    "spacingTop": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "px20",
+        "px50",
+        "px140"
+      ]
+    },
+    "JobTitle": {
+      "type": "string"
+    },
+    "EmployeeCard": {
+      "type": "component",
+      "component": "shared.employee-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

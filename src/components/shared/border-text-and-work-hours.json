@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_border_text_and_work_hours",
+  "info": {
+    "displayName": "BorderTextAndWorkHours"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "richtext"
+    },
+    "WorkHours": {
+      "type": "richtext"
+    },
+    "spacingTop": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "px20",
+        "px50",
+        "px140"
+      ]
+    }
+  },
+  "config": {}
+}

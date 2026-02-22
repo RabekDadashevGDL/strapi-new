@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_link_containers",
+  "info": {
+    "displayName": "LinkContainer"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "text"
+    },
+    "Text": {
+      "type": "text"
+    },
+    "Button_Text": {
+      "type": "text"
+    },
+    "Button_Link": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

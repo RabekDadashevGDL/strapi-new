@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_solo_images",
+  "info": {
+    "displayName": "SoloImage"
+  },
+  "options": {},
+  "attributes": {
+    "SingleImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "spacingTop": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "px20",
+        "px50",
+        "px140"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_news_page_news_dates",
+  "info": {
+    "displayName": "NewsDate"
+  },
+  "options": {},
+  "attributes": {
+    "DateNum": {
+      "type": "string"
+    },
+    "spacingTop": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "px20",
+        "px50",
+        "px140"
+      ]
+    }
+  },
+  "config": {}
+}

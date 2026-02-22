@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_download_files",
+  "info": {
+    "displayName": "DownloadFile"
+  },
+  "options": {},
+  "attributes": {
+    "spacingTop": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "px20",
+        "px50",
+        "px140"
+      ]
+    },
+    "File": {
+      "type": "component",
+      "component": "shared.files",
+      "repeatable": true
+    },
+    "Title": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

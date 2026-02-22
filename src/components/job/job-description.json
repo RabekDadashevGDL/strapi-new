@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_job_job_descriptions",
+  "info": {
+    "displayName": "JobDescription"
+  },
+  "options": {},
+  "attributes": {
+    "spacingTop": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "px20",
+        "px50",
+        "px140"
+      ]
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "DescriptionFile": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

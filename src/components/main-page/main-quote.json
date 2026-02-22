@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_main_page_main_quotes",
+  "info": {
+    "displayName": "MainQuote"
+  },
+  "options": {},
+  "attributes": {
+    "spacingTop": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "px20",
+        "px50",
+        "px140"
+      ]
+    },
+    "Text": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

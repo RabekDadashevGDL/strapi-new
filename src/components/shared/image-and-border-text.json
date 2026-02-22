@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_shared_image_and_border_texts",
+  "info": {
+    "displayName": "ImageAndBorderText"
+  },
+  "options": {},
+  "attributes": {
+    "spacingTop": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "px20",
+        "px50",
+        "px140"
+      ]
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Text": {
+      "type": "richtext"
+    },
+    "Reverse": {
+      "type": "boolean"
+    },
+    "OnlyText": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

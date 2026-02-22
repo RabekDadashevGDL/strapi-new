@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_solo_texts",
+  "info": {
+    "displayName": "SoloText"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "richtext"
+    },
+    "spacingTop": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "px20",
+        "px50",
+        "px140"
+      ]
+    }
+  },
+  "config": {}
+}

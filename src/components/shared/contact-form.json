@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_contact_forms",
+  "info": {
+    "displayName": "ContactForm"
+  },
+  "options": {},
+  "attributes": {
+    "spacingTop": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "px20",
+        "px50",
+        "px140"
+      ]
+    }
+  },
+  "config": {}
+}
